@@ -27,7 +27,7 @@ body {
 }
 
 .card {
-  width: 70vw;
+  width: 75vw;
   height: 60vh;
   aspect-ratio: 1 / 1.5;
   background-color: #2d033b;
@@ -50,11 +50,11 @@ body {
     var(--clr-3)
   );
   border-radius: inherit;
-  animation: rotation 6s linear infinite;
+  animation: rotation 4s linear infinite;
 }
 
 .card::after {
-  filter: blur(2.5rem);
+  filter: blur(1.8rem);
 }
 
 .card-content {
@@ -72,12 +72,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Protest Strike", sans-serif;
-  font-size: 30px;
+  font-family: "Protest Riot", sans-serif;
+  font-size: 34px;
   letter-spacing: 1px;
   color: #f8e5ff;
   text-shadow: 4px 3px 0px #810ca8, 9px 8px 0px rgba(0, 0, 0, 0.15);
-  margin-top: 50px;
+  margin-top: 54px;
 }
 
 .card-body {
